@@ -1,0 +1,44 @@
+.movie {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .movie p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .likeButton {
+    padding: 8px 16px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .likeButton:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .likeBtton.liked {
+    background-color: #ff6f61;
+    color: white;
+  }
+  
