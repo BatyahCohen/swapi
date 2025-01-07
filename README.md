@@ -25,7 +25,7 @@ To get started with this project locally:
  ```bash git clone https://github.com/BatyahCohen/swapi.git```
 
 2. Install the dependencies:
-   ```bash npm install``
+   ```bash npm install```
 
 3. Start the development server:
     ```bash npm run dev ```
